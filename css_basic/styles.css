@@ -1,4 +1,12 @@
 /* styles.css */
+.logo {
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+header {
+    background-color: #333;
+    color: white;
+}
 /* Make the body a flex container with vertical stacking */
 body {
     display: flex;
@@ -16,19 +24,20 @@ main {
 article {
     flex: 2;             /* 2 parts out of 3 */
     overflow-y: auto;    /* scrollable if content overflows */
-    padding: 1rem;
-    background-color: #fdfdfd;
+    padding: 1.5rem;
+    background-color: #fff;
+    border: 1px solid #ddd;
 }
 /* Aside takes 1/3 of the width */
 aside {
     flex: 1;             /* 1 part out of 3 */
     overflow-y: auto;    /* scrollable if content overflows */
     padding: 1rem;
-    background-color: #f1f1f1;
+    background-color: #fafafa;
 }
-/* Optional: style header and footer */
-header, footer {
+ footer {
     padding: 1rem;
-    background-color: #ddd;
+    background-color: #333;
+    color: white;
     text-align: center;
 }
